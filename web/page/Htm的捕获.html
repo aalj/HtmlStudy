@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html的捕获</title>
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/app/GetHtmlDiv.js"></script>
+    <link href="../css/noteStyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <p id="text_p">我只是一个简简单单的p标签
+            <a>我举报他怎么可能是简简单单的p标签呢</a>
+        </p>
+        <button id="btn1">text找到那个在你头上拉屎的人</button>
+        <p class="note">text能显示他所有的内容, 但是不会显示他的子标签的标签名称</p>
+    </div>
+    <div>
+        <button id="btn2">html找到那个在你头上拉屎的人</button>
+        <p class="note">html能够显示更多的细节,对于自标签不光能够打印内容,还能够答应标签名称</p>
+    </div>
+    <div>
+        <p>我要获取标签的属性内容</p>
+        <p>
+            <input id="input_text" type="text" value="我什么都没有"/>
+        </p>
+        <button id="get_input_val">你上面有一个input标签还不看看他的内容是什么</button>
+
+    </div>
+</body>
+</html>

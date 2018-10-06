@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/app/app.js"></script>
+    <style>
+        div {
+            background-color: beige;
+            width: 40px;
+            height: 40px;
+            padding: 50px;
+            margin: 5px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<p class="te">jquery</p>
+<p class="jquery_doc">
+    Jquery 的选择器
+</p>
+
+
+<script>
+    for (var i = 0; i < 10; i++) {
+        $("<div>").appendTo(document.body);
+    }
+    $("div").click(function () {
+        $(this).slideUp(1000);
+    });
+
+</script>
+
+</body>
+</html>

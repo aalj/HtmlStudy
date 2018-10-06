@@ -1,0 +1,9 @@
+.note {
+    background-color: antiquewhite;
+    height: auto;
+    width: auto;
+    color: black;
+}
+#input_text{
+    width: 60%;
+}
